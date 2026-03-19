@@ -25,7 +25,7 @@ skills repo add sxwebdev/rbacconnect
 ## Installation
 
 ```bash
-go get github.com/sxwebdev/sentinel/pkg/rbacconnect
+go get github.com/sxwebdev/rbacconnect@latest
 ```
 
 ## Quick Start
@@ -36,7 +36,7 @@ go get github.com/sxwebdev/sentinel/pkg/rbacconnect
 package main
 
 import (
-    "github.com/sxwebdev/sentinel/pkg/rbacconnect"
+    "github.com/sxwebdev/rbacconnect"
 )
 
 func createPolicy() *rbacconnect.Policy {
@@ -77,7 +77,7 @@ func createPolicy() *rbacconnect.Policy {
 package main
 
 import (
-    "github.com/sxwebdev/sentinel/pkg/rbacconnect"
+    "github.com/sxwebdev/rbacconnect"
     "connectrpc.com/connect"
 )
 
