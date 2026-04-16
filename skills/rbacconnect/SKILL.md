@@ -8,7 +8,7 @@ description: >-
   or Decision types. Applies when the user mentions RBAC + connect-go, role-based access control
   for gRPC/ConnectRPC, policy hot-reloading, deny-over-allow rules, super-roles, or connect-go
   interceptor authorization.
-user-invocable: false
+user-invocable: true
 ---
 
 # rbacconnect — RBAC for ConnectRPC
